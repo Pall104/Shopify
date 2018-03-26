@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     public function getHomePage(){
-        return view('ShopifyWeb.home');
+        return view('ShopifyWeb.portfolio');
     }
 
     public function getSignUp(){
