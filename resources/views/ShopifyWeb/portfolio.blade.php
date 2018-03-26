@@ -11,16 +11,16 @@
 <header class="navbar navbar-default navbar-fixed-top" id="banner">
     <div class="container">
         <a class="scrollable" href="top">
-            <img src="http://qlip.in/images/qlip.png" alt="qlip">
+            <img  style="width: 99px;padding-left: 10px;margin-top: 6px;" src="http://www.amigio.de/wp-content/uploads/2012/05/Logo.png" alt="qlip">
         </a>
-        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <button style="margin-top: 22px;;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
         <nav class="navbar-collapse collapse" id="navbar" role="navigation" aria-expanded="false">
-            <ul class="nav navbar-nav navbar-right" >
+            <ul class="nav navbar-nav navbar-right" style="margin-top: -48px;" >
                 <li class="active">
                     <a class="scrollable" href="#top">About</a>
                 </li>
@@ -73,13 +73,8 @@
 
    <h2 style="text-align: center;color: grey;">Contact ME</h2>
     <hr style="color:grey;" class="star-dark">
-    <div style="display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    color:grey;">
-        <form style="width: 35%;
-    margin-left: 130px;" id="contactForm" novalidate>
+    <div style="display: flex;  flex-direction: row; justify-content: space-around;align-items: center;color:grey;">
+        <form style="width: 35%;  margin-left: 130px;" id="contactForm" novalidate>
             <div class="form-item">
                 <label class="label-custom" for="name">Name</label>
                 <input id="name" type="text" placeholder="Name" required>
@@ -97,18 +92,13 @@
                 <input id="message" type="text" placeholder="Message" required>
             </div>
             <br>
-            <button style="border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
-    border-style: solid;
-    border-width: 1px;padding: 10px 18px 8px;" type="submit">Send</button>
+            <button style="border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186); border-style: solid;sborder-width: 1px;padding: 10px 18px 8px;" type="submit">Send</button>
 
         </form>
-        <div style="width: 44%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 94px;">
-            <p >Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+        <div style="width: 44%;  display: flex;flex-direction: column;margin-left: 94px;font-size: 16px;">
+            <p style="margin-top: 10px;" >Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
             <p >I promise to reply A.S.A.P.</p>
-            <p >Note: No spam/soliciting pour moi, merci :)</p>
+            <p style="margin-top: 180px;" >Note: No spam/soliciting pour moi, merci :)</p>
         </div>
     </div>
     </section>
@@ -119,14 +109,8 @@
         </div>
     </main>
 <footer style="background: darkgrey;">
-    <div id="footer-above">
-        <div style="display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 401px;
-    color: white;
-    font-size: 23px;
-}" >
+    <div style="display: flex; flex-direction: row; justify-content: space-around;color:white;margin-left: 150px;" id="footer-above">
+        <div  >
             <h3>
                 About this page
             </h3>
@@ -138,17 +122,9 @@
 
             </p>
         </div>
-        <div style="display: flex;
-    flex-direction: column;
-    color: white;
-    margin-left: 680px;
-    width: 30%;
-    margin-top: -135px;">
-            <h3>Around The World</h3>
-            <ul style="display: flex;
-    flex-direction: row;
-    margin-left: -40px;margin-top: 29px;
-    margin-bottom: 35px;">
+        <div >
+            <h3 style="margin-left: 34px;">Around The World</h3>
+            <ul style="display: flex;flex-direction: row; justify-content: space-evenly;">
                 <li>
                     <a class="button social" href="https://www.linkedin.com/in/hallaathrad"></a>
                 </li>
@@ -164,8 +140,7 @@
             </ul>
         </div>
     </div>
-    <div style="color: white;
-    font-size: 18px;" id="footer-below">
+    <div style="color: white; font-size: 18px;" id="footer-below">
         qlip ©
         <script>document.write(new Date().getFullYear())</script>
         2018. All Rights Reversed
