@@ -15,3 +15,4 @@ Route::get('/home','Web\HomeController@getHomePage');
 Route::get('/sign-up','Web\HomeController@getSignup');
 Route::get('/balloons','Web\HomeController@getBalloons');
 Route::get('/drumkit','Web\HomeController@getDrumKitPage');
+Route::get('/js-clock','Web\HomeController@getJsClock');
