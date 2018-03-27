@@ -16,3 +16,4 @@ Route::get('/sign-up','Web\HomeController@getSignup');
 Route::get('/balloons','Web\HomeController@getBalloons');
 Route::get('/drumkit','Web\HomeController@getDrumKitPage');
 Route::get('/js-clock','Web\HomeController@getJsClock');
+Route::get('/drag','Web\HomeController@getDragNDrop');

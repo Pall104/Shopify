@@ -23,4 +23,7 @@ class HomeController extends Controller
     public function getJsClock(){
         return view('ShopifyWeb.jsClock');
     }
+    public function getDragNDrop(){
+        return view('ShopifyWeb.dragndrop');
+    }
 }
