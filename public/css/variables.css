@@ -2,12 +2,15 @@
     --base: #ffc600;
     --spacing: 10px;
     --blur: 10px;
+    --margin: 5px;
 }
 
 img {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+    margin: var(--margin);
+
 }
 
 .hl {

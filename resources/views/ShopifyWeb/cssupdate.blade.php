@@ -17,6 +17,9 @@
 
     <label for="base">Base Color</label>
     <input id="base" type="color" name="base" value="#ffc600">
+
+    <label for="margin">Margin:</label>
+    <input id="margin" type="range" name="margin" min="5" max="200" value="5" data-sizing="px">
   </div>
 
   <img src="https://www.w3schools.com/howto/img_fjords.jpg">
