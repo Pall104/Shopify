@@ -19,7 +19,7 @@
     <input id="base" type="color" name="base" value="#ffc600">
   </div>
 
-  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+  <img src="https://www.w3schools.com/howto/img_fjords.jpg">
 
   <script>
     const inputs = document.querySelectorAll('.controls input');
