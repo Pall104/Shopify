@@ -26,4 +26,7 @@ class HomeController extends Controller
     public function getDragNDrop(){
         return view('ShopifyWeb.dragndrop');
     }
+    public function getCssUpdate(){
+        return view('ShopifyWeb.cssupdate');
+    }
 }

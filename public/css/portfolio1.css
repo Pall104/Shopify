@@ -198,7 +198,7 @@ form {
     background: #722872;
 }
 #portfolio img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: 146px;
@@ -258,12 +258,14 @@ main header {
     padding: 50px 30px;
 }
 #portfolio .grid {
+    display: flex;
+    flex-direction: row;
+    margin-left: -110px;
     padding: 0;
     max-width: 90%;
     list-style: none;
     justify-content: space-around;
     align-items: flex-start;
-    margin: 0 auto;
 }
 #portfolio .grid li {
     margin: 20px;
@@ -283,7 +285,6 @@ main header {
     font-size: .85em;
     line-height: 1.764705882em;
     vertical-align: middle;
-    vertical-align: baseline;
     opacity: 0;
     -webkit-transition: top .3s ease,opacity .3s ease;
     transition: top .3s ease,opacity .3s ease;

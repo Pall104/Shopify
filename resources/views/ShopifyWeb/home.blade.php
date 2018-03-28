@@ -2,6 +2,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="normalize.css" />
 
 </head>
 <body>
