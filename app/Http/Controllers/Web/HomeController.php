@@ -29,4 +29,7 @@ class HomeController extends Controller
     public function getCssUpdate(){
         return view('ShopifyWeb.cssupdate');
     }
+    public function getArrayCardio(){
+        return view('ShopifyWeb.arrayCardio1');
+    }
 }
