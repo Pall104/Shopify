@@ -32,4 +32,7 @@ class HomeController extends Controller
     public function getArrayCardio(){
         return view('ShopifyWeb.arrayCardio1');
     }
+    public function getTwinkle(){
+        return view('ShopifyWeb.twinkle');
+    }
 }
