@@ -20,3 +20,4 @@ Route::get('/drag','Web\HomeController@getDragNDrop');
 Route::get('/css-update','Web\HomeController@getCssUpdate');
 Route::get('/array-cardio','Web\HomeController@getArrayCardio');
 Route::get('/twinkle','Web\HomeController@getTwinkle');
+Route::get('/flex-panel','Web\HomeController@getFlexPanel');

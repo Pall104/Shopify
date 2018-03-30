@@ -35,4 +35,7 @@ class HomeController extends Controller
     public function getTwinkle(){
         return view('ShopifyWeb.twinkle');
     }
+    public function getFlexPanel(){
+        return view('ShopifyWeb.flexPanel');
+    }
 }
