@@ -38,4 +38,7 @@ class HomeController extends Controller
     public function getFlexPanel(){
         return view('ShopifyWeb.flexPanel');
     }
+    public function getAjaxStep(){
+        return view('ShopifyWeb.ajaxStep');
+    }
 }
