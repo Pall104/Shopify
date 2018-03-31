@@ -10,8 +10,8 @@
 <div class="panels">
   <div class="panel panel1">
     <p>Hey</p>
-    <p>Let's</p>
-    <p>Dance</p>
+    <p>What's Up</p>
+    <p>Let's Dance</p>
   </div>
   <div class="panel panel2">
     <p>Give</p>
@@ -20,8 +20,8 @@
   </div>
   <div class="panel panel3">
     <p>Experience</p>
-    <p>It</p>
-    <p>Today</p>
+    <p>The</p>
+    <p>Unseen</p>
   </div>
   <div class="panel panel4">
     <p>Give</p>
