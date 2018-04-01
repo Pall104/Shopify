@@ -41,4 +41,9 @@ class HomeController extends Controller
     public function getAjaxStep(){
         return view('ShopifyWeb.ajaxStep');
     }
+    public function getCardio(){
+        return view('ShopifyWeb.cardio2');
+    }
+
+
 }
