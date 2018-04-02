@@ -44,6 +44,9 @@ class HomeController extends Controller
     public function getCardio(){
         return view('ShopifyWeb.cardio2');
     }
+    public function getHtmlCanvas(){
+        return view('ShopifyWeb.htmlCanvas');
+    }
 
 
 }
