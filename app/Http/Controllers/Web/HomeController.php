@@ -47,6 +47,9 @@ class HomeController extends Controller
     public function getHtmlCanvas(){
         return view('ShopifyWeb.htmlCanvas');
     }
-
+   public function getDevTools()
+   {
+    return view('ShopifyWeb.devTools');
+    }
 
 }

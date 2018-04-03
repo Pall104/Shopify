@@ -24,3 +24,4 @@ Route::get('/flex-panel','Web\HomeController@getFlexPanel');
 Route::get('/search','Web\HomeController@getAjaxStep');
 Route::get('/cardio2','Web\HomeController@getCardio');
 Route::get('/html-canvas','Web\HomeController@getHtmlCanvas');
+Route::get('/dev-tools','Web\HomeController@getDevTools');
