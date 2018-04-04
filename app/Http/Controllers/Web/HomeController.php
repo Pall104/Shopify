@@ -48,8 +48,11 @@ class HomeController extends Controller
         return view('ShopifyWeb.htmlCanvas');
     }
    public function getDevTools()
-   {
+    {
     return view('ShopifyWeb.devTools');
+    }
+    public function getHoldShift(){
+        return view('ShopifyWeb.HoldShift');
     }
 
 }
