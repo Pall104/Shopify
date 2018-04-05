@@ -26,3 +26,4 @@ Route::get('/cardio2','Web\HomeController@getCardio');
 Route::get('/html-canvas','Web\HomeController@getHtmlCanvas');
 Route::get('/dev-tools','Web\HomeController@getDevTools');
 Route::get('/hold-shift','Web\HomeController@getHoldShift');
+Route::get('/custom-video','Web\HomeController@getCustomVideo');

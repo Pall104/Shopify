@@ -54,5 +54,8 @@ class HomeController extends Controller
     public function getHoldShift(){
         return view('ShopifyWeb.HoldShift');
     }
+    public  function getCustomVideo(){
+        return view('ShopifyWeb.customVideo');
+    }
 
 }
