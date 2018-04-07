@@ -27,3 +27,4 @@ Route::get('/html-canvas','Web\HomeController@getHtmlCanvas');
 Route::get('/dev-tools','Web\HomeController@getDevTools');
 Route::get('/hold-shift','Web\HomeController@getHoldShift');
 Route::get('/custom-video','Web\HomeController@getCustomVideo');
+Route::get('/slide','Web\HomeController@getSlideInControl');

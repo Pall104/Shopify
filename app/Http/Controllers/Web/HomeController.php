@@ -57,5 +57,8 @@ class HomeController extends Controller
     public  function getCustomVideo(){
         return view('ShopifyWeb.customVideo');
     }
+    public function getSlideInControl(){
+        return view('ShopifyWeb.slide');
+    }
 
 }
