@@ -1,28 +1,37 @@
-<html>
-<head>
-    <link rel="stylesheet" type="text/css" href="css/portfolio1.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="normalize.css" />
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pallavi Nawani - Backend Developer, with practical experience in API's development,Web Development.">
+    <meta name="author" content="Pall104">
+    <title>Pallavi Nawani | Personal Portfolio</title>
+
+    <link rel="icon" href="images/pallavi.png" type="image/x-icon"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="css/style.css">
 </head>
-<body>
+
+<body class="index" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Intro banner - Elevator spiel-->
 <header class="navbar navbar-default navbar-fixed-top" id="banner">
     <div class="container">
-        <a class="scrollable" href="top">
-            <img  style="width: 99px;padding-left: 10px;margin-top: 6px;" src="http://www.amigio.de/wp-content/uploads/2012/05/Logo.png" alt="qlip">
+        <a class="scrollable" href="#top">
+            <img src="images/profile.jpg" alt="Pallavi Nawani | Backend End Developer" title="Pallavi Nawani | Back End Developer">
         </a>
-        <button style="margin-top: 22px;;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <nav class="navbar-collapse collapse" id="navbar" role="navigation" aria-expanded="false">
-            <ul class="nav navbar-nav navbar-right" style="margin-top: -48px;" >
-                <li class="active">
+        <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
                     <a class="scrollable" href="#top">About</a>
                 </li>
                 <li>
@@ -35,131 +44,139 @@
         </nav>
     </div>
 </header>
-<main style="background: grey;">
+<!-- end banner-->
+<a id="top" name="home"></a>
+<main>
     <header>
-        <div  style="font-size: 20px;" class="intro-text">
-            <p style=" margin-top: 100px;">
-                Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction;  devoted to functional programming and information architecture.
-            </p>
-            <hr class="star-bright">
-            <span class="skills">Web Developer - User Experience Designer - Graphic Artist</span>
-        </div>
-        <img style="border-radius: 50%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYWC5mOyqa0EC7qBYlXQmRl56Lg0Ytzo2S7we6jMyj4QZXg8hB" alt="image">
-    </header>
-    <section id="portfolio">
-        <h2 style="text-align: center;color: grey; font-size: 40px;">PORTFOLIO</h2>
-        <hr style="color: grey;" class="star-dark">
-        <ul class="grid">
-            <li>
-                <img src="https://blog.mozilla.org/wp-content/uploads/2017/09/screenshots-onboarding-231-1400x720.png">
-            </li>
-            <li>
-                <img src="http://www.shapecollage.com/screenshots/screenshot-windowsxp-1.png">
-            </li>
-        </ul>
-         <ul class="grid">
-            <li>
-                <img src="http://www.shapecollage.com/screenshots/screenshot-windowsxp-1.png">
-            </li>
-            <li>
-                <img src="https://blog.mozilla.org/wp-content/uploads/2017/09/screenshots-onboarding-231-1400x720.png">
-            </li>
-         </ul>
-        <ul class="grid">
-            <li>
-                <img src="http://www.shapecollage.com/screenshots/screenshot-windowsxp-1.png">
-            </li>
-            <li>
-                <img src="http://www.shapecollage.com/screenshots/screenshot-windowsxp-1.png">
-            </li>
-        </ul>
-    </section>
-    <section id="contact">
+        <p class="fcc-example">This page is created to complete
+            <a href="https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target="_blank">a challenge</a> for learners at
+            <a href="https://freecodecamp.com" target="_blank">freeCodeCamp</a>.</p>
 
-        <h2 style="text-align: center;color: grey;">Contact ME</h2>
-        <hr style="color:grey;" class="star-dark">
-        <div style="display: flex;  flex-direction: row; justify-content: space-around;align-items: center;color:grey;">
-            <form style="width: 35%;  margin-left: 130px;" id="contactForm" novalidate>
-                <div class="form-item">
-                    <label class="label-custom" for="name">Name</label>
-                    <input id="name" type="text" placeholder="Name" required>
+        <div class="intro-text">
+            <p>
+                <span>Backend Laravel Developer </span>with practical experience in API's creation, web development, functionality implementation; interested in functional programming.</p>
+            <hr class="emblem-bright">
+            <span class="skills">Back End Developer - Experience in mobile app development</span>
+        </div>
+        <img src="images/profile.jpg" alt="A picture of Kapil posing randomly on a trip."
+             title="A picture of Kapil posing randomly on a trip.">
+    </header>
+    <!-- Portfolio section-->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <hr class="emblem-dark">
+        <p>These are some of the mini projects that I have done so far from : <a href="https://javascript30.com/">JavaScript 30 day challenge.</a></p>
+        <ul class="grid">
+            <li>
+                <img src="images/floating-balloons.png" alt="JS Drum Kit">
+            </li>
+            <li>
+                <img src="images/js-clock.png" alt="CSS and JS Clock">
+            </li>
+            <li>
+                <img src="images/Type Ahead.png" alt="Type Ahead">
+            </li>
+            <li>
+                <img src="images/Flex Panel Gallery.png" alt="Flex Panel Gallery">
+            </li>
+        </ul>
+        <p>Briefly put, I pursued an Honors degree in Electronics, then completed my post graduation in Informatics. I interned as a Business Development Executive and now have been working as a Backend Developer in mobile domain.</p>
+    </section>
+    <!-- end portfolio-->
+    <!-- Contact section-->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <hr class="emblem-dark">
+        <div>
+            <form id="contactForm" name="sentMessage" novalidate="">
+                <div class="form-item control-group">
+                    <label for="“name”">Name</label>
+                    <input id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
                 </div>
-                <div class="form-item">
-                    <label class="label-custom" for="email">Email Address</label>
-                    <input id="email" type="text" placeholder="Email" required>
+                <div class="form-item control-group">
+                    <label for="“email”">Email Address</label>
+                    <input id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
                 </div>
-                <div class="form-item">
-                    <label class="label-custom" for="phone">Phone Number</label>
-                    <input id="phone" type="text" placeholder="Phone Number" required>
+                <div class="form-item control-group">
+                    <label for="“phone”">Phone Number</label>
+                    <input id="phone" type="tel" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
                 </div>
-                <div class="form-item">
-                    <label class="label-custom" for="message">Message</label>
-                    <input id="message" type="text" placeholder="Message" required>
+                <div class="form-item control-group">
+                    <label for="“message”">Message</label>
+                    <textarea id="message" rows="5" placeholder="Message" required data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
                 </div>
                 <br>
-                <button style="border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186); border-style: solid;sborder-width: 1px;padding: 10px 18px 8px;" type="submit">Send</button>
-
+                <span>This form is currently out of service.</span>
+                <div id="success"></div>
+                <button type="submit" disabled>Send</button>
             </form>
-            <div style="width: 44%;  display: flex;flex-direction: column;margin-left: 94px;font-size: 16px;">
-                <p style="margin-top: 10px;" >Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
-                <p >I promise to reply A.S.A.P.</p>
-                <p style="margin-top: 180px;" >Note: No spam/soliciting pour moi, merci :)</p>
+            <div>
+                <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my
+                    Resume or even if only for a coffee just feel free to drop me an email anytime.</p>
+                <!-- <p>kapilsharmajmps |at| gmail |dot| com</p> -->
+                <p>pallavi.nawani@gmail.com</p>
+                <p>You'll get a response A.S.A.P.</p>
+                <p>No spam please. :)</p>
             </div>
         </div>
     </section>
+    <!-- end contact-->
+    <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
     <div class="scroll-top">
-        <a class="button  scrollable" href="#top">
-            <i class="fa fa-chevron-up"></i>
+        <a class="button scrollable" href="#top">
+            <i class="fa fa-fw fa-chevron-up"></i>
         </a>
     </div>
 </main>
-<footer style="background: darkgrey;">
-    <div style="display: flex; flex-direction: row; justify-content: space-around;color:white;margin-left: 9%;" id="footer-above">
-        <div  >
-            <h3>
-                About this page
-            </h3>
-            <p>
-                "Made with"<i class="fa fa-fw fa-coffee"></i> "and"
-                <i class="fa fa-fw fa-music"></i>
-                <br> "by"
-                <a href="http://qlip.in">Justin Sane</a>
-
-            </p>
+<!-- Footer-->
+<footer>
+    <div class="container">
+        <div id="disclaimer">Pallavi Nawani
+            <span class="flipped">&copy;</span>
+            <span>
+                    <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</span>
         </div>
-        <div>
-            <h3 style="margin-left: 34px;">Around The World</h3>
-            <ul style="display: flex;flex-direction: row; justify-content: space-evenly;list-style: none;">
-                <li>
-                    <a class="button social" href="https://www.linkedin.com/in/hallaathrad">
-                        <img style="width: 30px;height: 38px;" src="http://v.fastcdn.co/u/1570556-0-LinkedInwhite.png">
-                    </a>
-                </li>
-                <li>
-                     <a class="button social" href="https://github.com/hallaathrad">
-                         <img style="width: 30px;height: 38px;" src="https://www.yourvillageonline.com/wp-content/uploads/2015/11/google-plus-icon.png">
-                     </a>
-                </li>
-                <li>
-                     <a class="button social" href="https://twitter.com/hallaathrad">
-                         <img style="width: 30px;height: 38px;" src="https://ton.twimg.com/dtc/a7d9cc62-85d4-47c5-9b72-217d67193c42/_static/imgs/DTC_Services_1h_hero_bg.png">
-                     </a>
-                </li>
-                <li>
-                    <a class="button social" href="https://www.flickr.com/photos/hallaathrad/">
-                        <img style="width: 30px;height: 38px;" src="http://cascape.ca/wp-content/uploads/2017/07/white-instagram.png">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div style="color: white; font-size: 18px;" id="footer-below">
-        qlip ©
-        <script>document.write(new Date().getFullYear())</script>
-        2018. All Rights Reversed
-
+        <ul id="social_links">
+            <li>
+                <a class="button social" href="https://www.linkedin.com/in/pallavi-nawani-b90329113/" title="Linkedin" target="_blank">
+                    <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a class="button social" href="https://github.com/Pall104" title="Github" target="_blank">
+                    <i class="fa fa-fw fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a class="button social" href="https://twitter.com/pallavi_nawani" title="Twitter" target="_blank">
+                    <i class="fa fa-fw fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a class="button social" href="https://www.facebook.com/pallavi.nawani" title="Facebook" target="_blank">
+                    <i class="fa fa-fw fa-facebook"></i>
+                </a>
+            </li>
+        </ul>
     </div>
 </footer>
-
+<!-- <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Contact Form JavaScript-->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+<!--<!-->
+<script src="js/script.js" defer></script>
 </body>
+
 </html>
